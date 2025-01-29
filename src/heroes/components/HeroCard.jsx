@@ -33,6 +33,7 @@ export const HeroCard = ({
               <p className="card-text">{alter_ego}</p>
 
               {/* {alter_ego !== characters && charactersByHero} */}
+              {/* {alter_ego !== characters && <p>{characters}</p>} */}
 
               <CharacterByHero characters={characters} alter_ego={alter_ego} />
 
